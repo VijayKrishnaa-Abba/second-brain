@@ -1,8 +1,7 @@
 import mongoose from "mongoose";
 
-// const MONGODB_URI = process.env.MONGODB_URI | ""
 const MONGODB_URI =
-  "mongodb+srv://abbavijaykrishna002:1bIJKllfHD17td4Z@cluster0.zjgvcgy.mongodb.net/second-brain?retryWrites=true&w=majority&appName=Cluster0";
+  process.env.MONGODB_URI || "mongodb://localhost:27017/second-brain";
 
 console.log("starting connectionto DB");
 export const ConnectedDB = async () => {
