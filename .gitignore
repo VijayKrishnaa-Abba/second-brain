@@ -1,0 +1,106 @@
+# Node.js and npm
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# TypeScript and build artifacts
+dist/
+build/
+*.js
+!src/**/*.js  # Keep JS files in src if you have mixed TS/JS
+*.js.map
+*.d.ts
+tsconfig.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+
+# IDE and editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+jest.config.js
+*.lcov
+
+# Debug files
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Optional package-lock
+# package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Local development files
+*.local
+*.bak
+*.tmp
+*.temp
+
+# Database files
+*.db
+*.sqlite
+*.sql
+*.dump
+
+# Compiled binary addons
+*.node
+
+# Debugger files
+.vscode/launch.json
+
+# Serverless directories
+.serverless/
+.webpack/
+
+# Backup files
+*.bak
+
+plan.txt
